@@ -20,3 +20,8 @@ You can clearly see that above process results in duplication of same code 3 tim
 Using inheritance, we have to write the functions only one time instead of three times as we have inherited rest of the three classes from base class(Vehicle).
 
 [For more info. use link](https://www.geeksforgeeks.org/inheritance-in-c/).
+
+# Program 1
+
+![](https://media.giphy.com/media/9weuRH37aE3X0U83q6/giphy.gif)
+
