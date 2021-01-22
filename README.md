@@ -85,4 +85,58 @@ int main()
 
 ![](https://media.giphy.com/media/TqiwHbFBaZ4ti/giphy.gif)
 
+```C++
+#include <iostream>
+using namespace std;
+
+class Base 
+{
+  int x;
+
+  public:
+      void set_x(int n)
+      {
+        x = n;
+      }
+
+      void show_x()
+      {
+        cout<<"X = "<<x<<endl;
+      }
+};
+
+class derived: private Base
+{
+  int y;
+
+  public:
+      void set_y(int n)
+      {
+        y = n; 
+      }
+
+      void show_y()
+      {
+        cout<<"Y = "<<y<<endl;  
+      }
+};
+
+int main()
+{
+  int x, y;
+  derived obj;
+  cout<<"Enter value of x:\n";
+  cin>>x;
+  cout<<"Enter value of y:\n";
+  cin>>y;
+  obj.set_x(x); //error: not accessible
+  obj.set_y(y);
+  obj.show_x(); //(same error)
+  obj.show_y();
+
+  return 0;
+}
+```
+[Code Link](https://repl.it/@Siddharthsing13/Program-22#main.cpp)
+
 
