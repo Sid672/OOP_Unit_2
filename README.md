@@ -83,6 +83,6 @@ int main()
 
 # Program 2
 
-[1VT3UNeWdijUSMpRL4](https://media.giphy.com/media/1VT3UNeWdijUSMpRL4/giphy.gif)
+![](https://media.giphy.com/media/TqiwHbFBaZ4ti/giphy.gif)
 
 
