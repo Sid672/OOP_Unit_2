@@ -80,3 +80,9 @@ int main()
 }
 ```
 [Code Link](https://repl.it/@Siddharthsing13/Program-21#main.cpp)
+
+# Program 2
+
+[1VT3UNeWdijUSMpRL4](https://media.giphy.com/media/1VT3UNeWdijUSMpRL4/giphy.gif)
+
+
