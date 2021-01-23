@@ -141,6 +141,8 @@ int main()
 
 # Program 3
 
+![](https://media.giphy.com/media/Yrig7Cy55DLY6mEt1Y/giphy.gif)
+
 ```C++
 #include <iostream>
 using namespace std;
