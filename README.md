@@ -139,4 +139,62 @@ int main()
 ```
 [Code Link](https://repl.it/@Siddharthsing13/Program-22#main.cpp)
 
+# Program 3
+
+```C++
+#include <iostream>
+using namespace std;
+
+class Base 
+{
+  protected:
+      int x;
+
+  public:
+      void set_x(int n)
+      {
+        x = n;
+      }
+
+      void show_x()
+      {
+        cout<<"X = "<<x<<endl;
+      }
+};
+
+class derived: public Base
+{
+  int y;
+
+  public:
+      void set_y(int n)
+      {
+        y = n; 
+      }
+
+      void show_y()
+      {
+        cout<<"Y = "<<y<<endl;  
+      }
+};
+
+int main()
+{
+  int x, y;
+  derived obj;
+  cout<<"Enter value of x:\n";
+  cin>>x;
+  cout<<"Enter value of y:\n";
+  cin>>y;
+  obj.set_x(x);
+  obj.set_y(y);
+  obj.show_x();
+  obj.show_y();
+
+  obj.x = 100; //error: not accessible.
+
+  return 0;
+}
+```
+
 
